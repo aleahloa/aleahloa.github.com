@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Aleah Loa">
+        <meta name="author" content="Aleah Loa">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Aleah Loa</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <style>
+        html { height: 100%; }
+        body { min-height: 100%; }
+        .wrapper { padding: 100px 0; margin: 0; min-height: 100%; background: url(http://31.media.tumblr.com/e571889cefd53fbf8137d43147708c73/tumblr_mudwomA0TK1so1neco1_1280.jpg) no-repeat center; background-size: cover; }
+        .top { position: absolute; top: 0; left: 0; height: 100px; width: 100%; background: #fff; text-align: center; border-bottom: 1px solid #222; }
+        .bottom { position: absolute; height: 100px; bottom: 0; left: 0; width: 100%; background: #fff; text-align: center; overflow: hidden; border-top: 1px solid #222; }
+        .bottom li { display: inline; margin-right: 1em; }
+        .bottom a, .bottom a:hover, .bottom a:visited, .bottom h3, .top h3 { font-family: "Raleway", courier new; color: #000; }
+        .bottom h3 { margin-top: 30px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .bottom ul { display: none; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .bottom:hover h3 { margin-top: 10px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .bottom:hover ul { display: initial; margin-top: 0px; display: initial; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .tabs:before, .tabs:after { content: none; }
+        .content p, .content h4 { font-family: courier new; }
+        .container { margin: 0 auto; width: 960px; }
+        .credit { font-family: courier new; font-size: 12px; position: fixed; top: 1rem; right: 1rem; opacity: .1; z-index: 1; transition: .5s all ease; }
+        .credit:hover { opacity: 1; transition: .5s all ease; }
+        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+        <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <p class="credit">Website design by <a href="http://jonny.li">Jonny Li</a></p>
+        <div class="wrapper">
+            <div class="tabs-content">
+                <div class="content active" id="home"></div>
+                <div class="content" id="gallery">
+                    <div class="container">
+                        <h4>Gallery</h4>
+                        <hr>
+                    </div>
+                </div>
+                <div class="content" id="about">
+                    <div class="container">
+                        <h4>About</h4>
+                        <hr>
+                        <p style="text-indent: 2em">Aleah Loa is an artist living in Vancouver, Canada. She is currently building on her portfolio by experimenting with mixed media and photography. Influenced by surrealist, Max Ernst, she finds inspiration in poetry, raw emotion, and experience.</p>
+                        <p>Contact information below for any commission work.</p>
+                        <p>E-mail: <a href="mailto:aleahloa@yahoo.ca">aleahloa@yahoo.ca</a><br>Phone: (604) 783-9732</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top"></div>
+            <div class="bottom">
+                <h3><a href="#">Aleah Loa</a></h3>
+                <ul class="tabs" data-tab data-options="deep_linking:true">
+                    <li class="tab-title active"><a href="#home">home</a></li>
+                    <li class="tab-title"><a href="#gallery">gallery</a></li>
+                    <li class="tab-title"><a href="#about">about</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+        var bgurl = $(".wrapper").css("background-image");
+        $(document).foundation();
+        bg(window.location.hash);
+        $(".tabs a").click(function() { bg($(this).attr("href")); });
+        function bg(page) { $(".wrapper").css("background-image", ((page == "" || page == "#") || page == "#home") ? bgurl : "none"); }
+        </script>
+    </body>
+</html>
