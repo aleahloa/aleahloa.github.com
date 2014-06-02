@@ -13,22 +13,22 @@
         .top { position: fixed; top: 0; left: 0; height: 100px; width: 100%; background: #fff; border-bottom: 1px solid #222; }
         .bottom { position: fixed; height: 100px; bottom: 0; left: 0; width: 100%; background: #fff; text-align: center; overflow: hidden; border-top: 1px solid #222; }
         .bottom li { display: inline; margin-right: 1em; }
-        .bottom a, .bottom a:hover, .bottom a:visited, .bottom h3 { font-family: "Raleway", courier new; color: #000; }
+        .bottom a, .bottom a:hover, .bottom a:visited, h2, h3, h4  { font-family: "Raleway", courier new; color: #000; }
         .bottom h3 { margin-top: 30px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
         .bottom ul { display: none; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
         .bottom:hover h3 { margin-top: 10px; }
         .bottom:hover ul { display: initial; margin-top: 0px; display: initial; }
         .tabs:before, .tabs:after { content: none; }
-        .content p, .content h4 { font-family: courier new; }
         .container { margin: 0 auto; width: 960px; }
         .credit { font-family: courier new; font-size: 12px; position: fixed; top: 1rem; right: 1rem; opacity: .1; z-index: 1; transition: .5s all ease; }
         .credit:hover { opacity: 1; }
         .gallery li { display: inline; }
         .gallery img { width: 200px; height: auto; border: 1px solid #eee; padding: 1em; margin: 0 1em 1em 0; }
-        .reveal-modal h2 { font-family: "Raleway", courier new; margin-bottom: .5em; }
+        .reveal-modal h2 { margin-bottom: .5em; }
         .caption > div { background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; width: calc(100% - 3.75rem); height: auto; bottom: 1.875rem; left: 1.875rem; transition: opacity 0.3s linear; color: #ccc; }
         .caption:hover > div { display: block; opacity: 1; }
-        .caption p { font-family: courier new; margin: 1em; }
+        .caption p { color: #fff; margin: 1em; }
+        p { font: 12.3px courier new; }
         </style>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation.min.js"></script>
@@ -89,14 +89,7 @@
         <script>
         var bgurl = $(".wrapper").css("background-image");
         update(window.location.hash);
-        $(document).ready(function() {
-            $(document).foundation({
-                reveal: {
-                    animation: "fade",
-                    animation_speed: 100
-                }
-            });
-        });
+        $(document).ready(function() { $(document).foundation({ reveal: { animation: "none" } }); });
         $(window).bind("hashchange", function() { update(window.location.hash); });
         function update(hash) {
             var io = hash.indexOf("-");
