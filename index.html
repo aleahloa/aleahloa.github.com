@@ -13,7 +13,7 @@
         .top { position: fixed; top: 0; left: 0; height: 100px; width: 100%; background: #fff; border-bottom: 1px solid #222; }
         .bottom { position: fixed; height: 100px; bottom: 0; left: 0; width: 100%; background: #fff; text-align: center; overflow: hidden; border-top: 1px solid #222; }
         .bottom li { display: inline; margin-right: 1em; }
-        .bottom a, .bottom a:hover, .bottom a:visited, h2, h3, h4  { font-family: "Raleway", courier new; color: #000; }
+        .bottom a, .bottom a:hover, .bottom a:visited, h3, h4  { font-family: "Raleway", courier new; color: #000; }
         .bottom h3 { margin-top: 30px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
         .bottom ul { display: none; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
         .bottom:hover h3 { margin-top: 10px; }
@@ -55,7 +55,7 @@
                             <li ng-repeat="image in images">
                                 <a href="#gallery-{{$index}}" data-reveal-id="gallery-{{$index}}"><img src="{{image.src}}"></a>
                                 <div id="gallery-{{$index}}" class="reveal-modal small" data-reveal>
-                                    <h2>{{image.title}}</h2>
+                                    <h3>{{image.title}}</h3>
                                     <div class="caption">
                                         <img src="{{image.src}}">   
                                         <div><p>{{image.caption}}</p></div>
