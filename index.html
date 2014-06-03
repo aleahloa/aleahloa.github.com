@@ -64,7 +64,6 @@
                                         <a class="dismiss-modal"><img src="{{image.src}}"></a>
                                         <div><p>{{image.caption}}</p></div>
                                     </div>
-                                    <script>if ("{{$last}}") $("html, body").scrollTop(0);</script>
                                 </div>
                             </li>
                         </ul>
@@ -104,11 +103,9 @@
         $(window).bind("hashchange", function() { update(window.location.hash); });
         function update(hash) {
             var io = hash.indexOf("-");
-            if (io != -1) {
-                window.location.hash = hash.substring(0, io);
-                $("html, body").scrollTop($(hash).offset().top);
-            } else $("html, body").scrollTop(0);
+            if (io != -1) window.location.hash = hash.substring(0, io);
             $(".wrapper").css("background-image", ((hash == "" || hash == "#") || hash == "#home") ? bgurl : "none");
+            setTimeout(function() { $("html, body").scrollTop(0); }, 50);
         }
         </script>
     </body>
