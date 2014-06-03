@@ -25,6 +25,7 @@
         .gallery li { display: inline; }
         .gallery img { width: 200px; height: auto; border: 1px solid #eee; padding: 1em; margin: 0 1em 1em 0; transition: .5s all ease; opacity: .75; }
         .gallery img:hover { opacity: 1; }
+        .reveal-modal { position: absolute; }
         .reveal-modal h3 { margin-bottom: 0.2em; }
         .caption > div { background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; bottom: 1.875rem; left: 1.875rem; width: calc(100% - 3.75rem); height: auto; transition: opacity 0.3s linear; color: #ccc; }
         .caption:hover > div { display: block; opacity: 1; }
@@ -107,6 +108,7 @@
             $(".wrapper").css("background-image", ((hash == "" || hash == "#") || hash == "#home") ? bgurl : "none");
             setTimeout(function() { $("html, body").scrollTop(0); }, 50);
         }
+        $(document).on('opened', '[data-reveal]', function () { $(this).css("top", $(window).scrollTop() + "px"); });
         </script>
     </body>
 </html>
