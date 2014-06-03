@@ -36,7 +36,18 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-sanitize.min.js"></script>
-        <script src="gallery.js"></script>
+        <script>
+        function GalleryCtrl($scope) {
+            $scope.images = [
+                {
+                    title: "Bubblegum Jets",
+                    author: "Aleah Loa",
+                    src: "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/10339318_10203746067402063_1630967137937098385_o.jpg",
+                    caption: "May 2nd, 2014"
+                }
+            ];
+        }
+        </script>
         <!--[if lt IE 9]>
         <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
         <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
