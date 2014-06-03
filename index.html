@@ -26,8 +26,9 @@
         .gallery img { width: 200px; height: auto; border: 1px solid #eee; padding: 1em; margin: 0 1em 1em 0; transition: .5s all ease; opacity: .75; }
         .gallery img:hover { opacity: 1; }
         .reveal-modal h3 { margin-bottom: 0.2em; }
-        .caption > div { background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; width: calc(100% - 3.75rem); height: auto; bottom: 1.875rem; left: 1.875rem; transition: opacity 0.3s linear; color: #ccc; }
+        .caption > div { background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; bottom: 1.875rem; left: 1.875rem; width: calc(100% - 3.75rem); height: auto; transition: opacity 0.3s linear; color: #ccc; }
         .caption:hover > div { display: block; opacity: 1; }
+        .caption img { width: 100%; height: auto; }
         .caption p { color: #fff; margin: 1em; }
         .author { font-size: 14px; }
         p { font: 12.3px courier new; }
@@ -63,6 +64,7 @@
                                         <a class="dismiss-modal"><img src="{{image.src}}"></a>
                                         <div><p>{{image.caption}}</p></div>
                                     </div>
+                                    <script>if ("{{$last}}") $("html, body").scrollTop(0);</script>
                                 </div>
                             </li>
                         </ul>
@@ -91,7 +93,7 @@
         <script>
         var bgurl = $(".wrapper").css("background-image");
         update(window.location.hash);
-        $(document).ready(function() {
+        $(function() {
             $(document).foundation({
                 reveal: {
                     animation: "none",
@@ -105,7 +107,7 @@
             if (io != -1) {
                 window.location.hash = hash.substring(0, io);
                 $("html, body").scrollTop($(hash).offset().top);
-            }
+            } else $("html, body").scrollTop(0);
             $(".wrapper").css("background-image", ((hash == "" || hash == "#") || hash == "#home") ? bgurl : "none");
         }
         </script>
