@@ -60,10 +60,9 @@
                                     <h3>{{image.title}}</h3>
                                     <p class="author">By {{image.author}}</p>
                                     <div class="caption">
-                                        <img src="{{image.src}}">   
+                                        <a class="dismiss-modal"><img src="{{image.src}}"></a>
                                         <div><p>{{image.caption}}</p></div>
                                     </div>
-                                    <a class="close-reveal-modal">&#215;</a>
                                 </div>
                             </li>
                         </ul>
@@ -92,7 +91,14 @@
         <script>
         var bgurl = $(".wrapper").css("background-image");
         update(window.location.hash);
-        $(document).ready(function() { $(document).foundation({ reveal: { animation: "none" } }); });
+        $(document).ready(function() {
+            $(document).foundation({
+                reveal: {
+                    animation: "none",
+                    dismiss_modal_class: "dismiss-modal"
+                }
+            });
+        });
         $(window).bind("hashchange", function() { update(window.location.hash); });
         function update(hash) {
             var io = hash.indexOf("-");
