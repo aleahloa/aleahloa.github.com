@@ -30,19 +30,6 @@ function GalleryCtrl($scope) {
             caption: "July 18th, 2013"
         },
         
-        {
-            title: "Arènes d'Arles",
-            author: "Aleah Loa",
-            src: "https://scontent-a-sea.xx.fbcdn.net/hphotos-xap1/t31.0-8/q71/s720x720/1077044_10201394273648689_138833029_o.jpg",
-            caption: "July 18th, 2013"
-        },
-        
-        {
-            title: "Let's Call Banksy",
-            author: "Aleah Loa",
-            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xfa1/t1.0-9/488150_4394334106398_428929546_n.jpg",
-            caption: "July 18th, 2013"
-        },
       
         {
             title: "Sleepy Prayers",
