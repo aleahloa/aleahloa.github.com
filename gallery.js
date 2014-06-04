@@ -1,7 +1,6 @@
 function GalleryCtrl($scope) {
     $scope.images = [
         
-        
         {
             title: "Untitled",
             author: "Aleah Loa",
@@ -23,18 +22,21 @@ function GalleryCtrl($scope) {
             src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xaf1/t1.0-9/1069960_10201394272448659_847322368_n.jpg",
             caption: "July 18th, 2013"
         },
+        
         {
             title: "Cathédrale Notre Dame de Paris",
             author: "Aleah Loa",
             src: "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/998867_10201394491734141_1744311596_n.jpg",
             caption: "July 18th, 2013"
         },
+        
         {
             title: "Arènes d'Arles",
             author: "Aleah Loa",
             src: "https://scontent-a-sea.xx.fbcdn.net/hphotos-xap1/t31.0-8/q71/s720x720/1077044_10201394273648689_138833029_o.jpg",
             caption: "July 18th, 2013"
         },
+        
         {
             title: "Let's Call Banksy",
             author: "Aleah Loa",
