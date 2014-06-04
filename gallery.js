@@ -1,5 +1,13 @@
 function GalleryCtrl($scope) {
     $scope.images = [
+        
+        
+        {
+            title: "Untitled",
+            author: "Aleah Loa",
+            src: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10452291_10203757774134724_4674911474546280008_n.jpg",
+            caption: "May 31st, 2014"
+        },
         {
             title: "Bubblegum Jets",
             author: "Aleah Loa",
@@ -48,6 +56,13 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-ash2/t31.0-8/q71/s720x720/1074743_10201394490574112_757581483_o.jpg",
             caption: "July 18th, 2013"
+        },
+        
+         {
+            title: "Focus",
+            author: "Aleah Loa",
+            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/t31.0-8/615010_10202058765820578_1091587269_o.jpg",
+            caption: "October 17th, 2013"
         }
     ];
 }
