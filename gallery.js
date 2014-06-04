@@ -50,20 +50,7 @@ function GalleryCtrl($scope) {
             src: "https://scontent-a-sea.xx.fbcdn.net/hphotos-xaf1/t31.0-8/s720x720/192804_4370784637676_1422868768_o.jpg",
             caption: "September 3rd, 2012"
         },
-        {
-            title: "Mainstream on Main Street",
-            author: "Aleah Loa",
-            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xfa1/t31.0-8/s720x720/192970_4370785437696_176576210_o.jpg",
-            caption: "September 3rd, 2012"
-        },
-        
-        {
-            title: "English Breakfast",
-            author: "Aleah Loa",
-            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-ash2/t31.0-8/q71/s720x720/1074743_10201394490574112_757581483_o.jpg",
-            caption: "July 18th, 2013"
-        },
-        
+      
         
          {
             title: "Focus",
