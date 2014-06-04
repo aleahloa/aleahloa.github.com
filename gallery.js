@@ -8,13 +8,16 @@ function GalleryCtrl($scope) {
             src: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10452291_10203757774134724_4674911474546280008_n.jpg",
             caption: "May 31st, 2014"
         },
+        
         {
             title: "Bubblegum Jets",
             author: "Aleah Loa",
             src: "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/10339318_10203746067402063_1630967137937098385_o.jpg",
             caption: "May 2nd, 2014"
         },
+        
         {
+
             title: "Parisian Nights",
             author: "Aleah Loa",
             src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xaf1/t1.0-9/1069960_10201394272448659_847322368_n.jpg",
@@ -51,12 +54,14 @@ function GalleryCtrl($scope) {
             src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xfa1/t31.0-8/s720x720/192970_4370785437696_176576210_o.jpg",
             caption: "September 3rd, 2012"
         },
+        
         {
             title: "English Breakfast",
             author: "Aleah Loa",
             src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-ash2/t31.0-8/q71/s720x720/1074743_10201394490574112_757581483_o.jpg",
             caption: "July 18th, 2013"
         },
+        
         
          {
             title: "Focus",
