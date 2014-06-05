@@ -13,6 +13,12 @@ function GalleryCtrl($scope) {
             caption: "May 2nd, 2014"
         },
         {
+            title: "Expermintation",
+            author: "Aleah Loa",
+            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/t31.0-8/1800029_10203758340148874_2073110633821539748_o.jpg",
+            caption: "May 2nd, 2014"
+        },
+        {
 
             title: "Parisian Nights",
             author: "Aleah Loa",
