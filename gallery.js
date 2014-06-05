@@ -1,6 +1,12 @@
 function GalleryCtrl($scope) {
     $scope.images = [
         {
+            title: "Von Deeper with DJ Hanzel",
+            author: "Aleah Loa",
+            src: "https://scontent-b-sea.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10384808_10203759147169049_7694577365427859953_n.jpg",
+            caption: "May 29th, 2014"
+        },
+        {
             title: "Untitled",
             author: "Aleah Loa",
             src: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10452291_10203757774134724_4674911474546280008_n.jpg",
