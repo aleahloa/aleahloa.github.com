@@ -34,6 +34,10 @@
         .author { font-size: 14px; }
         p { font: 12.3px courier new; }
         </style>
+        <script>
+        var touch = 'ontouchstart' in document.documentElement;
+        
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
@@ -110,7 +114,6 @@
                 }
             });
         });
-        $(".bottom").click(function() { $(this).trigger("hover"); });
         $(window).bind("hashchange", function() { update(window.location.hash); });
         function update(hash) {
             var io = hash.indexOf("-");
@@ -118,7 +121,28 @@
             $(".wrapper").css("background-image", ((hash == "" || hash == "#") || hash == "#home") ? bgurl : "none");
             setTimeout(function() { $("html, body").scrollTop(0); }, 50);
         }
-        $(document).on('opened', '[data-reveal]', function () { $(this).css("top", $(window).scrollTop() + "px"); });
+        var revealed = -1;
+        $(document).on("opened", "[data-reveal]", function () {
+            var modal = $(this);
+            var mid = modal.attr("id");
+            revealed = mid.substring(mid.indexOf("-") + 1);
+            modal.css("top", $(window).scrollTop() + "px");
+        });
+        $(document).on("closed", "[data-reveal]", function() { revealed = -1; });
+        $(document).keydown(function(e) {
+            if (revealed != -1) {
+                switch (e.keyCode) {
+                    case 37:
+                        var prev = $("#gallery-" + (parseInt(revealed, 10) - 1));
+                        if (prev.length) prev.foundation("reveal", "open");
+                        break;
+                    case 39:
+                        var next = $("#gallery-" + (parseInt(revealed, 10) + 1));
+                        if (next.length) next.foundation("reveal", "open");
+                        break;
+                };
+            }
+        });
         </script>
     </body>
 </html>
