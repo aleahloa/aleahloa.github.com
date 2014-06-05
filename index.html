@@ -110,6 +110,7 @@
                 }
             });
         });
+        $(".bottom").click(function() { $(this).trigger("hover"); });
         $(window).bind("hashchange", function() { update(window.location.hash); });
         function update(hash) {
             var io = hash.indexOf("-");
