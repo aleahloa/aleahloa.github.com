@@ -14,20 +14,20 @@
         .bottom { position: fixed; height: 100px; bottom: 0; left: 0; width: 100%; background: #fff; text-align: center; overflow: hidden; border-top: 1px solid #222; }
         .bottom li { display: inline; margin-right: 1em; }
         .bottom a, .bottom a:hover, .bottom a:visited, h3, h4  { font-family: "Raleway", courier new; color: #000; }
-        .bottom h3 { margin-top: 30px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
-        .bottom ul { display: none; transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .bottom h3 { margin-top: 30px; transition: all .7s cubic-bezier(0, 1, 0.5, 1); -webkit-transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
+        .bottom ul { display: none; transition: all .7s cubic-bezier(0, 1, 0.5, 1); -webkit-transition: all .7s cubic-bezier(0, 1, 0.5, 1); }
         .bottom:hover h3 { margin-top: 10px; }
         .bottom:hover ul { display: block; }
         .tabs:before, .tabs:after { content: none; }
         .container { margin: 0 auto; width: 960px; }
-        .credit { text-align: right; position: fixed; top: 1rem; right: 1rem; opacity: .1; z-index: 1; transition: .5s all ease; }
+        .credit { text-align: right; position: fixed; top: 1rem; right: 1rem; opacity: .1; z-index: 1; transition: .5s all ease; -webkit-transition: .5s all ease; }
         .credit:hover { opacity: 1; }
         .gallery li { display: inline; }
-        .gallery img { width: 200px; height: auto; border: 1px solid #eee; padding: 1em; margin: 0 1em 1em 0; transition: .5s all ease; opacity: .75; }
+        .gallery img { width: 200px; height: auto; border: 1px solid #eee; padding: 1em; margin: 0 1em 1em 0; transition: .5s all ease; opacity: .75; -webkit-transition: .5s all ease; opacity: .75; }
         .gallery img:hover { opacity: 1; }
         .reveal-modal { position: absolute; }
         .reveal-modal h3 { margin-bottom: 0.2em; }
-        .caption > div { background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; bottom: 1.875rem; left: 1.875rem; width: calc(100% - 3.75rem); height: auto; transition: opacity 0.3s linear; color: #ccc; }
+        .caption > div { color: #ccc; background: rgba(0, 0, 0, .75); opacity: 0; position: absolute; bottom: 1.875rem; left: 1.875rem; width: calc(100% - 3.75rem); height: auto; transition: opacity 0.3s linear; -webkit-transition: opacity 0.3s linear; }
         .caption:hover > div { display: block; opacity: 1; }
         .caption img { width: 100%; height: auto; }
         .caption p { color: #fff; margin: 1em; }
