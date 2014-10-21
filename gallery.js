@@ -36,6 +36,6 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "http://i.imgur.com/BaV5N6N.jpg",
             caption: "September 14th, 2014"
-        },
+        }
     ];
 }
