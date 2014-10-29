@@ -3,7 +3,7 @@ function GalleryCtrl($scope) {
          {
             title: "Cat's Spine + Pelvis",
             author: "Aleah Loa",
-            src: "http://imgur.com/S17kzdJ",
+            src: "http://i.imgur.com/S17kzdJ.jpg?1",
             caption: "October 28th, 2014"
         },
         {
