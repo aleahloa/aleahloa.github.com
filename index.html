@@ -139,7 +139,7 @@
                 };
             }
         });
-        if ('ontouchstart' in document.documentElement) {
+        if ("ontouchstart" in window || "onmsgesturechange" in window) {
             $(".bottom h3").css("margin-top", "10px");
             $(".bottom ul").css("display", "block");
         }
