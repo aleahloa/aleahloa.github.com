@@ -1,5 +1,11 @@
 function GalleryCtrl($scope) {
     $scope.images = [
+         {
+            title: "Cat's Spine + Pelvis",
+            author: "Aleah Loa",
+            src: "http://imgur.com/S17kzdJ",
+            caption: "October 28th, 2014"
+        },
         {
             title: "DJ Hanzel",
             author: "Aleah Loa",
