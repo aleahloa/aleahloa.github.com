@@ -42,7 +42,7 @@ function GalleryCtrl($scope) {
             src: "http://i.imgur.com/l5qjnvc.jpg",
             caption: "April 24th, 2014"
         
-        }
+        },
          {
             title: "Ants",
             author: "Aleah Loa",
