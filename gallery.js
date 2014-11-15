@@ -43,5 +43,12 @@ function GalleryCtrl($scope) {
             caption: "April 24th, 2014"
         
         }
+         {
+            title: "Ants",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/25FYpjs.jpg",
+            caption: "September 2nd, 2012"
+        
+        }
     ];
 }
