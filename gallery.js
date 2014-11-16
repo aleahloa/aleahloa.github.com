@@ -46,8 +46,8 @@ function GalleryCtrl($scope) {
         {
             title: "Ants",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/25FYpjs.jpg",
-            caption: "September 2nd, 2012"
+            src: "http://i.imgur.com/ovmiXl1.jpg",
+            caption: "September 21st, 2012"
         
         }
     ];
