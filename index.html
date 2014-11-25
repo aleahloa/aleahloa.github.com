@@ -66,7 +66,7 @@
                         <hr>
                         <ul class="gallery" ng-controller="GalleryCtrl">
                             <li ng-repeat="image in images">
-                                <a ng-href="#gallery-{{$index}}" data-reveal-id="gallery-{{$index}}"><img ng-src="{{image.src}}"></a>
+                                <a ng-href="#gallery-{{$index}}" data-reveal-id="gallery-{{$index}}"><img ng-src="{{image.src.replace('.jpg', 'm.jpg')}}"></a>
                                 <div id="gallery-{{$index}}" class="reveal-modal small" data-reveal>
                                     <h3>{{image.title}}</h3>
                                     <p class="author">By {{image.author}}</p>
