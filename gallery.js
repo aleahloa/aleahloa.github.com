@@ -3,6 +3,20 @@ function GalleryCtrl($scope) {
          {
             title: "Untitled",
             author: "Aleah Loa",
+            src: "http://imgur.com/EJ4d9el",
+            caption: "December 30th, 2014"
+        
+        },
+         {
+            title: "Shattered",
+            author: "Aleah Loa",
+            src: "http://imgur.com/3IkErPf",
+            caption: "December 12th, 2014"
+        
+        },
+         {
+            title: "Bloody Daggers",
+            author: "Aleah Loa",
             src: "http://i.imgur.com/m6o454V.jpg",
             caption: "November 11th, 2014"
         
@@ -20,7 +34,7 @@ function GalleryCtrl($scope) {
             caption: "September 14th, 2014"
         },
         {
-            title: "Untitled",
+            title: "Flat",
             author: "Aleah Loa",
             src: "http://i.imgur.com/tR1TuKh.jpg",
             caption: "September 11th, 2014"
