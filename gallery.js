@@ -3,14 +3,14 @@ function GalleryCtrl($scope) {
          {
             title: "Untitled",
             author: "Aleah Loa",
-            src: "http://imgur.com/EJ4d9el",
+            src: "http://i.imgur.com/EJ4d9el.jpg",
             caption: "December 30th, 2014"
         
         },
          {
             title: "Shattered",
             author: "Aleah Loa",
-            src: "http://imgur.com/3IkErPf",
+            src: "http://i.imgur.com/3IkErPf.jpg",
             caption: "December 12th, 2014"
         
         },
