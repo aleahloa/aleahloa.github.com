@@ -1,20 +1,20 @@
 function GalleryCtrl($scope) {
     $scope.images = [
-         {
+        {
             title: "Untitled",
             author: "Aleah Loa",
             src: "http://i.imgur.com/EJ4d9el.jpg",
             caption: "December 30th, 2014"
         
         },
-         {
+        {
             title: "Shattered",
             author: "Aleah Loa",
             src: "http://i.imgur.com/3IkErPf.jpg",
             caption: "December 12th, 2014"
         
         },
-         {
+        {
             title: "Bloody Daggers",
             author: "Aleah Loa",
             src: "http://i.imgur.com/m6o454V.jpg",
