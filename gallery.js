@@ -3,71 +3,71 @@ function GalleryCtrl($scope) {
         {
             title: "Untitled",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/EJ4d9el.jpg",
+            src: "https://i.imgur.com/EJ4d9el.jpg",
             caption: "December 30th, 2014"
         
         },
         {
             title: "Shattered",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/3IkErPf.jpg",
+            src: "https://i.imgur.com/3IkErPf.jpg",
             caption: "December 12th, 2014"
         
         },
         {
             title: "Bloody Daggers",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/m6o454V.jpg",
+            src: "https://i.imgur.com/m6o454V.jpg",
             caption: "November 11th, 2014"
         
         },
         {
             title: "Cat's Spine + Pelvis",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/S17kzdJ.jpg?1",
+            src: "https://i.imgur.com/S17kzdJ.jpg?1",
             caption: "October 28th, 2014"
         },
         {
             title: "Untitled",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/BaV5N6N.jpg",
+            src: "https://i.imgur.com/BaV5N6N.jpg",
             caption: "September 14th, 2014"
         },
         {
             title: "Flat",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/tR1TuKh.jpg",
+            src: "https://i.imgur.com/tR1TuKh.jpg",
             caption: "September 11th, 2014"
         },
         {
             title: "Untitled",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/6QdAZyO.jpg",
+            src: "https://i.imgur.com/6QdAZyO.jpg",
             caption: "May 31st, 2014"
         },
         {
             title: "DJ Hanzel",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/udQraBA.jpg",
+            src: "https://i.imgur.com/udQraBA.jpg",
             caption: "May 29th, 2014"
         },
         {
             title: "Bubblegum Jets",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/obUh9YL.jpg",
+            src: "https://i.imgur.com/obUh9YL.jpg",
             caption: "May 2nd, 2014"
         },
         {
             title: "Experimentation",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/l5qjnvc.jpg",
+            src: "https://i.imgur.com/l5qjnvc.jpg",
             caption: "April 24th, 2014"
         
         },
         {
             title: "Ants",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/ovmiXl1.jpg",
+            src: "https://i.imgur.com/ovmiXl1.jpg",
             caption: "September 21st, 2012"
         
         }
