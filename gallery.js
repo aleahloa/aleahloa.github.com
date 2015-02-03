@@ -2,17 +2,24 @@
 function GalleryCtrl($scope) {
     $scope.images = [
         {
+            title: "My Interpretation",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/fOQPDYG.jpg",
+            caption: "February 2nd, 2015"
+        
+        },
+        {
             title: "Carve Us",
             author: "Aleah Loa",
             src: "https://i.imgur.com/owh2XWc.jpg",
-            caption: "January 5th, 2014"
+            caption: "January 5th, 2015"
         
         },
         {
             title: "Waxflow",
             author: "Aleah Loa",
             src: "https://i.imgur.com/ejYLLF8.jpg",
-            caption: "January 5th, 2014"
+            caption: "January 5th, 2015"
         
         },
         {
