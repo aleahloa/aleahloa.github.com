@@ -20,7 +20,7 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "https://i.imgur.com/owh2XWc.jpg",
             caption: "January 5th, 2015"
-        
+            
         },
         {
             title: "Waxflow",
