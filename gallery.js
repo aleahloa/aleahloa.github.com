@@ -4,44 +4,38 @@ function GalleryCtrl($scope) {
          {
             title: "Distressed",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/vSpNNFW.jpg",
+            src: "https://i.imgur.com/vSpNNFW.jpg",
             caption: "February 9th, 2015"
-        
         },
         {
             title: "My Interpretation",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/fOQPDYG.jpg",
+            src: "https://i.imgur.com/fOQPDYG.jpg",
             caption: "February 2nd, 2015"
-        
         },
         {
             title: "Carve Us",
             author: "Aleah Loa",
             src: "https://i.imgur.com/owh2XWc.jpg",
             caption: "January 5th, 2015"
-            
         },
         {
             title: "Waxflow",
             author: "Aleah Loa",
             src: "https://i.imgur.com/ejYLLF8.jpg",
             caption: "January 5th, 2015"
-        
         },
         {
             title: "Shattered",
             author: "Aleah Loa",
             src: "https://i.imgur.com/3IkErPf.jpg",
             caption: "December 12th, 2014"
-        
         },
         {
             title: "Bloody Daggers",
             author: "Aleah Loa",
             src: "https://i.imgur.com/m6o454V.jpg",
             caption: "November 11th, 2014"
-        
         },
         {
             title: "Cat's Spine + Pelvis",
@@ -72,14 +66,12 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "https://i.imgur.com/l5qjnvc.jpg",
             caption: "April 24th, 2014"
-        
         },
         {
             title: "Ants",
             author: "Aleah Loa",
             src: "https://i.imgur.com/ovmiXl1.jpg",
             caption: "September 21st, 2012"
-        
         }
     ];
 }
