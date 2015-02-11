@@ -43,12 +43,6 @@ function GalleryCtrl($scope) {
             caption: "October 28th, 2014"
         },
         {
-            title: "Flat",
-            author: "Aleah Loa",
-            src: "https://i.imgur.com/tR1TuKh.jpg",
-            caption: "September 11th, 2014"
-        },
-        {
             title: "Untitled",
             author: "Aleah Loa",
             src: "https://i.imgur.com/6QdAZyO.jpg",
