@@ -1,6 +1,12 @@
 // use https links for imgur links pls, meaning if ur link starts with http://, change it to start with https://
 function GalleryCtrl($scope) {
     $scope.images = [
+        {
+            title: "Automation",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/NTu5Lt2.jpg",
+            caption: "February 24th, 2015"
+        },
          {
             title: "Distressed",
             author: "Aleah Loa",
