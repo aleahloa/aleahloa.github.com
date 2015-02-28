@@ -4,10 +4,10 @@ function GalleryCtrl($scope) {
         {
             title: "Automation",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/NTu5Lt2.jpg",
+            src: "https://i.imgur.com/NTu5Lt2.jpg",
             caption: "February 24th, 2015"
         },
-         {
+        {
             title: "Distressed",
             author: "Aleah Loa",
             src: "https://i.imgur.com/vSpNNFW.jpg",
