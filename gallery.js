@@ -2,6 +2,12 @@
 function GalleryCtrl($scope) {
     $scope.images = [
         {
+            title: "Stage 2 of Self Direction",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/dtLSqSi.jpg",
+            caption: "March 31st, 2015"
+        },
+        {
             title: "Automation",
             author: "Aleah Loa",
             src: "https://i.imgur.com/NTu5Lt2.jpg",
@@ -50,7 +56,7 @@ function GalleryCtrl($scope) {
             caption: "October 28th, 2014"
         },
         {
-            title: "Untitled",
+            title: "Primary",
             author: "Aleah Loa",
             src: "https://i.imgur.com/6QdAZyO.jpg",
             caption: "May 31st, 2014"
