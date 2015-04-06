@@ -4,7 +4,7 @@ function GalleryCtrl($scope) {
         {
             title: "Stage 2 of Self Direction",
             author: "Aleah Loa",
-            src: "http://i.imgur.com/dtLSqSi.jpg",
+            src: "https://i.imgur.com/dtLSqSi.jpg",
             caption: "March 31st, 2015"
         },
         {
