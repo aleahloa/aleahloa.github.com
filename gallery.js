@@ -22,7 +22,7 @@ function GalleryCtrl($scope) {
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://i.imgur.com/HQ3x3h2.jpg",
+            src: "https://i.imgur.com/mnh1ae5.jpg",
             caption: ""
         },
         {
@@ -34,7 +34,7 @@ function GalleryCtrl($scope) {
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://i.imgur.com/mnh1ae5.jpg",
+            src: "https://i.imgur.com/HQ3x3h2.jpg",
             caption: ""
         },
         {
