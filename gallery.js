@@ -4,37 +4,37 @@ function GalleryCtrl($scope) {
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/BcrSZDQ",
+            src: "https://imgur.com/1dyUjqo",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/CjApVnI",
+            src: "https://imgur.com/tdV7Hrj",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/FWrNxEh",
+            src: "https://imgur.com/8UsHZYg",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/mHMt9tL",
+            src: "",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/wgJApoU",
+            src: "",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "https://imgur.com/yg9RtXI",
+            src: "",
             caption: ""
         }
     ];
