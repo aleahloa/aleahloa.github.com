@@ -22,13 +22,13 @@ function GalleryCtrl($scope) {
         {
             title: "",
             author: "Aleah Loa",
-            src: "http://imgur.com/sADyVl1.jpg",
+            src: "http://imgur.com/ckvisYT.jpg",
             caption: ""
         },
         {
             title: "",
             author: "Aleah Loa",
-            src: "http://imgur.com/ckvisYT.jpg",
+            src: " http://imgur.com/sADyVl1.jpg",
             caption: ""
         },
         {
