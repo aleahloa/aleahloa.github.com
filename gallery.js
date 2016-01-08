@@ -54,6 +54,24 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "https://i.imgur.com/Jdu4AGh.jpg",
             caption: ""
+        },
+        {
+            title: "",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/8Ref7II.jpg",
+            caption: ""
+        },
+        {
+            title: "",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/dr0SbMx.jpg",
+            caption: ""
+        },
+        {
+            title: "",
+            author: "Aleah Loa",
+            src: "",
+            caption: "http://i.imgur.com/tfxUB2u.jpg"
         }
     ];
 }
