@@ -34,6 +34,7 @@
         .author { font-size: 14px; }
         .indent { text-indent: 2em; }
         p { font: 13px courier new; }
+        .ng-hide { display: none; }
         </style>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation.min.js"></script>
@@ -73,7 +74,7 @@
                                     <p class="author">By {{image.author}}</p>
                                     <div class="caption">
                                         <a class="dismiss-modal"><img ng-src="{{image.src}}"></a>
-                                        <div><p>{{image.caption}}</p></div>
+                                        <div ng-show="image.caption"><p>{{image.caption}}</p></div>
                                     </div>
                                 </div>
                             </li>
