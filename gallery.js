@@ -108,6 +108,12 @@ function GalleryCtrl($scope) {
             author: "Aleah Loa",
             src: "http://i.imgur.com/l2UIcoF.jpg",
             caption: ""
+        },
+        {
+            title: "",
+            author: "Aleah Loa",
+            src: "http://i.imgur.com/4np9hqj.jpg",
+            caption: ""
         }
     ];
 }
